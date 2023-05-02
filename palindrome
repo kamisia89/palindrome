@@ -7,3 +7,9 @@ def is_Palindrome(s):
         return is_Palindrome(s[1: l - 1])
     else:
         return False
+s = "kajak"
+ans = is_Palindrome(s)
+if ans:
+  print("yes, it is")
+else:
+  print("no, it's not")
